@@ -1,0 +1,35 @@
+<!-- Custom domain: firstprinciplesmfg.com (registered 2026-10-08). Substack binding pending. -->
+
+# First Principles Manufacturing
+
+> First Principles Manufacturing, a newsletter by Yuanwei Ma at the intersection of AI, robotics, manufacturing and US–China.
+
+First Principles Manufacturing (FPM) provides rigorous first-principles analyses of physical AI, industrial robotics, precision manufacturing, and US–China technological dynamics. It is written by Yuanwei Ma (nuclear engineering PhD, Chief Scientist at Changzhou Microintelligence, leading U.S. R&D in Novi, Michigan).
+
+## Frameworks
+
+- [The Builder Cannot Be the Verifier](frameworks/builder-cannot-verify.md): Execution and verification must reside on separate architectural paths; humans occupy the verification side.
+- [The Agent-Loop Three Tests](frameworks/agent-loop-three-tests.md): A shop-floor step can enter an autonomous agent loop only if it is programmatically invocable, can hand over state midway, and has an independent verification mechanism.
+- [Engineering the Map](frameworks/engineering-the-map.md): Plotting tasks along cost of failure versus cost of verification; using simulation and independent optical gates to drag tasks into the automatable zone.
+- [Amortize vs. Defer](frameworks/amortize-vs-defer.md): Robot learning computation tradeoffs between amortizing intelligence into model parameters versus deferring computation to test-time search and certified safety envelopes.
+- [Two Narratives: End-to-End Robotics vs. Agent-Wrapped Equipment](frameworks/two-narratives.md): End-to-end humanoid robotics searching for forgiving workcells versus agent-wrapped existing equipment stacks actively reshaping manufacturing engineering.
+- [Organization Shape and Coordination Technology](frameworks/org-shape-coordination.md): Organizational hierarchy as a function of coordination costs; physical AI agents impact the coordination layer rather than the muscular tier.
+- [Batch Drift and Tool ECG](frameworks/batch-drift-ecg.md): Burr morphology is a drifting distribution under tool wear and clamp fatigue; veteran operator adjustments serve as an unrecorded ECG of tool health.
+- [Contact Task Control Loops](frameworks/contact-task-control-loops.md): Three-tier control loops (servo kHz, motion 125–500 Hz, task <= Hz); agent architectures operate on the slow drift loop, not fast force-control loops.
+- [Two Ledgers, One Price](frameworks/two-ledgers-frames.md): Neoclassical economic models versus political-economy frameworks in explaining industrial capacity overhang, price wars, and supplier persistence.
+- [Equipment Agent-Readiness](frameworks/agent-readiness.md): Procurement criteria will prioritize programmatic external invocation and API readiness over traditional spec-sheet metrics.
+
+## About
+
+- [About First Principles Manufacturing](about.md): Comprehensive background on author Yuanwei Ma, industrial track record ($28M inspection systems), engineering credentials, and publication scope.
+- [Repository Entity Page](README.md): Overview of the open repository structure, copyright notices, and publication coordinates.
+- [Substack Publication](https://firstprinciplesmfg.com): Official publication page hosting long-form weekly essays.
+
+## Predictions
+
+- [FPM Prediction Ledger 2026](predictions/prediction-ledger.md): Public register of 16 falsifiable forecasts covering robotics, industrial agent adoption, US–China supply chains, and foundation model verification, audited quarterly and annually.
+
+## Data & Reproducibility
+
+- [Source Datasets Guide](data/README.md): Documentation and conventions for open CSV datasets backing published charts and empirical analyses.
+- [Reproducible Charts Guide](charts/README.md): Documentation and specifications for Python plotting scripts and the unified hand-drawn theme (`fpm_style.py`).
